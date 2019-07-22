@@ -1,4 +1,7 @@
- AOS.init({
+ //init wow
+new WOW().init(); 
+
+AOS.init({
  	duration: 800,
  	easing: 'slide',
  	once: false
