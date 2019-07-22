@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,7 +17,7 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+ 
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -90,17 +93,17 @@
 
     <div class="site-blocks-cover overlay " id="home-section" style="background-color: black">
 
-      <div class="container">
+      <div class="container ">
         <div class="row justify-content-center">
 
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-6">
-                <h1 class="text-white">Hello, I'm BANAHENE LUIS OWUSU</h1>
-                <p class="text-secondary">UG SRC VICE <span class="mx-3">|</span> UG'S FINEST</p>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore,
+                <h1 class="text-white wow lightSpeedIn " data-wow-duration="1.5s">Hello, I'm BANAHENE LUIS OWUSU</h1>
+                <p class="text-secondary wow slideInUp" data-wow-duration="2s">OFFICE OF THE JCR PRESIDENT<!--span class="mx-3">|</span> UG'S FINEST</p-->
+                <p class="lead wow slideInLeft" data-wow-delay="2s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore,
                   nostrum inventore quisquam totam dignissimos culpa! Eveniet.</p>
-                <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Me</a></p>
+                <p><a href="#contact-section" class="btn smoothscroll btn-primary wow tada" data-wow-delay="2.6s">Contact Me</a></p>
               </div>
             </div>
           </div>
@@ -112,15 +115,15 @@
 
     </div>
 
-    <div class="site-section bg-light" id="mission-section">
+    <div class="site-section bg-light wow bounceInUp" id="mission-section">
       <div class="container">
         <div class="row ">
           <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Mission and Vision</h2>
+            <h2 class="section-title text-center mb-5 ">Mission and Vision</h2>
           </div>
 
 
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 ">
             <div class="service d-flex h-100">
               <div class="service-number mr-4"><span class="icon-eye"></span></div>
               <div class="service-about">
@@ -147,8 +150,8 @@
     </div>
 
 
-
-    <div class="site-section" id="about-section">
+    <!--ABOUT SECTION STARTS-->
+    <div class="site-section " id="about-section">
       <div class="container">
 
         <div class="row mb-5">
@@ -175,7 +178,7 @@
           </div>
 
           <!--ACTUAL ABOUT/DESCRIPTION-->
-          <div class="col-lg-8">
+          <div class="col-lg-8 ">
             <nav id="navbar-example2" class="navbar navbar-light bg-light">
               <a class="navbar-brand" href="#"></a>
               <ul class="nav nav-pills">
@@ -192,7 +195,7 @@
               </ul>
             </nav>
             <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"
-              style="height: 500px ;position: relative;overflow-y: scroll;">
+              style="height: 300px ;position: relative;overflow-y: scroll;">
               <h4 id="fat">Biography</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore,
                 nostrum inventore quisquam totam dignissimos culpa! Eveniet</p>
@@ -226,7 +229,7 @@
     </div>
 
     <!-- GALLERTY Area Start -->
-    <div class="site-section bg-primary" id="gallery-section">
+    <div class="site-section bg-primary " id="gallery-section">
       <div class="container">
 
         <div class="row mb-5">
@@ -234,9 +237,10 @@
             <h2 class="section-title text-center mb-5">Gallery</h2>
           </div>
         </div>
+        
         <div class="row ">
           <!--IMAGE-->
-          <div class="col-lg-12 order-2 order-lg-1">
+          <div class="col-md-12 ">
             <!-- Swiper -->
             <div class="swiper-container1">
               <div class="swiper-wrapper">
@@ -249,7 +253,6 @@
               <!-- Add Pagination -->
               <div class="swiper-pagination"></div>
             </div>
-
           </div>
 
 
@@ -348,7 +351,7 @@
 
 
 
-    <section class="site-section bg-light" id="blog-section">
+    <section class="site-section bg-light wow bounceInUp" id="blog-section">
       <div class="container">
         <div class="row">
 
@@ -516,6 +519,7 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script src="js/wow.min.js"></script>
 
 
   <script src="js/main.js"></script>
@@ -541,7 +545,7 @@
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
-      autoplay: true,
+      //autoplay: true,
       loop: true,
       coverflowEffect: {
         rotate: 50,
@@ -554,7 +558,7 @@
         el: '.swiper-pagination',
       },
     });
-  </script>
+    </script>
 
 
 </body>
